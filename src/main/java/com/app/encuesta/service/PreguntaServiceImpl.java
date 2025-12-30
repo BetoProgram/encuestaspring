@@ -5,7 +5,7 @@ import com.app.encuesta.dto.PreguntaRequestDto;
 import com.app.encuesta.dto.PreguntaResponseDto;
 import com.app.encuesta.exception.ResourceNotFoundException;
 import com.app.encuesta.mapper.PreguntaMapper;
-import com.app.encuesta.mapper.TipoPreguntaRepository;
+import com.app.encuesta.repository.TipoPreguntaRepository;
 import com.app.encuesta.repository.EncuestaRepository;
 import com.app.encuesta.repository.PreguntaRepository;
 import lombok.RequiredArgsConstructor;
